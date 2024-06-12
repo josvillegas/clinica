@@ -1,8 +1,21 @@
 ---
-import Card from "../components/Card.astro";
 import Layout from "../layouts/Layout.astro";
+import Header from "../components/sections/Header.astro";
+import Headertoheader from "../components/Headertoheader.astro";
+import Tops from "../components/sections/Tops.astro";
+import Staff from "../components/sections/Staff.astro";
+import Servicios from "../components/sections/Sevicios.astro";
+import Espacialidades from "../components/sections/Espacialidades.astro";
+import Convenios from "../components/sections/Convenios.astro";
 ---
 
 <Layout title="Clinica Web">
-  <Card />
+  <Header>
+    <Headertoheader />
+  </Header>
+  <Servicios />
+  <Espacialidades />
+  <Staff />
+  <Tops />
+  <Convenios />
 </Layout>
