@@ -1,7 +1,23 @@
 ---
+import Header from "../components/sections/Header.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Pagina no encontrada">
-  <h1>hola</h1>
+  <Header>
+    <main class="flex flex-col gap-8 m-auto w-[980px] py-12">
+      <h2 class="text-5xl text-white font-semibold">
+        Lo sentimos, no pudimos encontrar la pagina que estas buscando
+      </h2>
+      <h3 class="text-3xl text-white">
+        Asegurate de que estes en lugar correcto
+      </h3>
+      <div class="mt-8">
+        <a
+          class="bg-white text-emerald-900 border border-white py-2 px-4 rounded-lg outline-none hover:border-white hover:text-white hover:bg-transparent"
+          href="/">volver al inicio</a
+        >
+      </div>
+    </main>
+  </Header>
 </Layout>
