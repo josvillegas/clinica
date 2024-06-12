@@ -1,16 +1,68 @@
-<main class="flex items-center gap-4 m-auto w-[780px]">
-  <div class="flex flex-col">
-    <h2 class="text-white text-3xl font-bold">Quienes Somos</h2>
-    <p class="text-white text-base">
-      Experimente un tratamiento compasivo y personalizado en nuestro reconocido
-      centro medico
-    </p>
-    <div>
-      <a
-        class="rounded-lg border border-white px-3 py-0.5 text-white bg-[#0799B6]"
-        href="#">ver mas</a
-      >
+<main class="flex m-auto w-8/12 py-10 bg-transparent md:w-9/10">
+  <div style="--swiper-pagination-color: #fff" class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="flex items-center justify-around flex-wrap">
+          <div class="flex flex-col gap-3">
+            <h2 class="text-white text-5xl font-bold">Quienes Somos</h2>
+            <p class="text-white text-base max-w-[300px]">
+              Experimente un tratamiento compasivo y personalizado en nuestro
+              reconocido centro medico
+            </p>
+            <div>
+              <a
+                class="rounded-lg border border-white px-3 py-0.5 text-white bg-[#0799B6]"
+                href="#">ver mas</a
+              >
+            </div>
+          </div>
+          <img src="principaldoctor3.png" alt="imagen de persona" />
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="flex items-center justify-around flex-wrap">
+          <div class="flex flex-col gap-3">
+            <h2 class="text-white text-5xl font-bold">Quienes Somos</h2>
+            <p class="text-white text-base max-w-[300px]">
+              Experimente un tratamiento compasivo y personalizado en nuestro
+              reconocido centro medico
+            </p>
+            <div>
+              <a
+                class="rounded-lg border border-white px-3 py-0.5 text-white bg-[#0799B6]"
+                href="#">ver mas</a
+              >
+            </div>
+          </div>
+          <img src="principaldoctor3.png" alt="imagen de persona" />
+        </div>
+      </div>
+    </div>
+    <div class="pt-10">
+      <div class="swiper-pagination"></div>
     </div>
   </div>
-  <img src="" alt="imagen de persona" />
 </main>
+<!--  -->
+<script>
+  import Swiper from "swiper/bundle";
+  import "swiper/css";
+  import "swiper/css/pagination";
+  import "swiper/css/navigation";
+  const swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 4500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+<!--
+
+-->
