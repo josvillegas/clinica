@@ -1,16 +1,26 @@
 ---
-import Facebook from "../../icons/Facebook.astro";
-import Instagram from "../../icons/Instagram.astro";
+import Facebook from "../../icons/Tabler-brand-facebook.astro";
+import Instagram from "../../icons/Tabler-brand-instagram.astro";
+import Mail from "../../icons/Tabler-mail.astro";
+import Whastapp from "../../icons/Whastapp.astro";
+import TablerLogo from "../../icons/Tabler-Mvv.astro";
 ---
 
 <!-- Primer NavBar -->
 <div class="bg-[#045C6D]">
   <nav class="flex justify-between m-auto py-2 px-2 flex-wrap">
     <div class="flex items-center gap-2 flex-wrap">
-      <a href="#" class="text-xs font-semibold text-white"
-        >clinica@company.com</a
+      <a
+        href="#"
+        class="text-xs font-semibold text-white inline-flex items-center gap-x-2"
+        ><Mail class="size-4" /> clinica@company.com</a
       >
-      <a href="#" class="text-xs font-semibold text-white">+51 987 654 321</a>
+      <a
+        href="#"
+        class="text-xs font-semibold text-white inline-flex items-center gap-x-2"
+      >
+        <Whastapp class="size-4" /> +51 987 654 321
+      </a>
     </div>
     <div class="flex items-center gap-2">
       <a href="#" class="text-xs font-semibold text-white">
@@ -25,33 +35,33 @@ import Instagram from "../../icons/Instagram.astro";
 </div>
 <!-- NavBar Principal -->
 <div class="bg-[#247f91]">
-  <nav class="flex justify-between py-5 px-2 m-auto flex-wrap">
-    <img src="" alt="" />
+  <nav class="flex justify-between py-5 px-36 m-auto flex-wrap items-center">
+    <TablerLogo class="size-10" />
     <ul class="flex gap-4 flex-wrap">
-      <li>
+      <li class="hover:underline">
         <a class="text-white font-semibold text-base" href="/">Inicio</a>
       </li>
-      <li>
+      <li class="hover:underline">
         <a class="text-white font-semibold text-base" href="nosotros"
           >Nosotros</a
         >
       </li>
-      <li>
+      <li class="hover:underline">
         <a class="text-white font-semibold text-base" href="servicios"
           >Servicios</a
         >
       </li>
-      <li>
+      <li class="hover:underline">
         <a class="text-white font-semibold text-base" href="especialidades"
           >Especialidades</a
         >
       </li>
-      <li>
+      <li class="hover:underline">
         <a class="text-white font-semibold text-base" href="medicos"
           >Staff Medico</a
         >
       </li>
-      <li>
+      <li class="hover:underline">
         <a class="text-white font-semibold text-base" href="#">Contactanos</a>
       </li>
     </ul>
