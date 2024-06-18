@@ -4,39 +4,64 @@
     Conozca a nuestro equipo de especialistas y reciba la mejor atención por su
     salud y bienestar. Cuando más lo necesitas, estamos para ti.
   </p>
-  <div class="flex justify-evenly gap-12 flex-wrap">
-    <div class="flex flex-col items-center">
-      <div class="bg-red-300 mb-4 rounded-lg">
-        <img src="principaldoctor3.png" alt="imagen de doctor" />
-      </div>
-      <h4 class="text-[#2E2E2E] font-semibold">John Dae Dae</h4>
-      <h5 class="text-[#0799B6] font-bold">Cirujano</h5>
-    </div>
-    <div class="flex flex-col items-center">
-      <div class="bg-red-300 mb-4 rounded-lg">
-        <img src="principaldoctor3.png" alt="imagen de doctor" />
-      </div>
-      <h4 class="text-[#2E2E2E] font-semibold">John Dae Dae</h4>
-      <h5 class="text-[#0799B6] font-bold">Cirujano</h5>
-    </div>
-    <div class="flex flex-col items-center">
-      <div class="bg-red-300 mb-4 rounded-lg">
-        <img src="principaldoctor3.png" alt="imagen de doctor" />
-      </div>
-      <h4 class="text-[#2E2E2E] font-semibold">John Dae Dae</h4>
-      <h5 class="text-[#0799B6] font-bold">Cirujano</h5>
-    </div>
-    <div class="flex flex-col items-center">
-      <div class="bg-red-300 mb-4 rounded-lg">
-        <img src="principaldoctor3.png" alt="imagen de doctor" />
-      </div>
-      <h4 class="text-[#2E2E2E] font-semibold">John Dae Dae</h4>
-      <h5 class="text-[#0799B6] font-bold">Cirujano</h5>
+  <div class="flex justify-center py-10">
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-10 px-10"
+    >
+      <!-- card doctors -->
+      <a
+        class="group hover:bg-teal-600 w-48 h-48 rounded-full flex items-center justify-center"
+        href="#"
+      >
+        <h4 class="group-hover:text-white group-hover:block hidden font-bold">
+          ver perfil
+        </h4>
+      </a>
+      <!-- card doctors -->
+      <a
+        class="group hover:bg-teal-600 w-48 h-48 rounded-full flex items-center justify-center"
+        href="#"
+      >
+        <h4 class="group-hover:text-white group-hover:block hidden font-bold">
+          ver perfil
+        </h4>
+      </a>
+      <!-- card doctors -->
+      <a
+        class="group hover:bg-teal-600 w-48 h-48 rounded-full flex items-center justify-center"
+        href="#"
+      >
+        <h4 class="group-hover:text-white group-hover:block hidden font-bold">
+          ver perfil
+        </h4>
+      </a>
+      <!-- card doctors -->
+      <a
+        class="group hover:bg-teal-600 w-48 h-48 rounded-full flex items-center justify-center"
+        href="#"
+      >
+        <h4 class="group-hover:text-white group-hover:block hidden font-bold">
+          ver perfil
+        </h4>
+      </a>
     </div>
   </div>
+
   <div>
     <a class="bg-teal-900 py-2 px-4 rounded-lg text-white" href="medicos"
       >ver staff</a
     >
   </div>
 </section>
+
+<style>
+  .group {
+    background-image: url("../doctor.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .group:hover {
+    background: teal;
+  }
+</style>
