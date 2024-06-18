@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/sections/Header.astro";
-import Headertoheader from "../components/Headertoheader.astro";
+import Headertoheader from "../components/sections/Headertoheader.astro";
 import Tops from "../components/sections/Tops.astro";
 import Staff from "../components/sections/Staff.astro";
 import Servicios from "../components/sections/Sevicios.astro";
@@ -11,9 +11,8 @@ import Testimonios from "../components/sections/Testimonios.astro";
 ---
 
 <Layout title="Clinica Web">
-  <Header>
-    <Headertoheader />
-  </Header>
+  <Header />
+  <Headertoheader />
   <Servicios />
   <Espacialidades />
   <Testimonios />
