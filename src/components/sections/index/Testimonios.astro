@@ -1,85 +1,26 @@
 <section class="bg-[#067A92]">
-  <h2 class="text-3xl text-center font-bold pt-10 text-white">
-    Especialidades
-  </h2>
+  <h2 class="text-3xl text-center font-bold pt-10 text-white">Testimonio</h2>
   <main class="flex m-auto py-10 bg-transparent md:w-9/10 bg-[#067A92]">
-    <div style="--swiper-pagination-color: #fff" class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="flex flex-col items-center gap-5">
-            <div>
-              <p class="text-white m-auto text-center max-w-lg">
-                "Especialistas de primera y equipos funcionando perfectamente,
-                la atención fue rápida y sin ningún problema externo..."
-              </p>
-            </div>
-            <div>
-              <img
-                class="rounded-full size-10"
-                src="avatar.webp"
-                width="40"
-                height="40"
-                alt="person testimonio"
-              />
-            </div>
-            <div>
-              <h4 class="text-center text-gray-900 text-base">John Dae Dae</h4>
-              <h5 class="text-center text-gray-800 font-bold text-sm">
-                Company Name
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="flex flex-col items-center gap-5">
-            <div>
-              <p class="text-white m-auto text-center max-w-lg">
-                "Especialistas de primera y equipos funcionando perfectamente,
-                la atención fue rápida y sin ningún problema externo..."
-              </p>
-            </div>
-            <div>
-              <img
-                class="rounded-full size-10"
-                src="avatar.webp"
-                width="40"
-                height="40"
-                alt="person testimonio"
-              />
-            </div>
-            <div>
-              <h4 class="text-center text-gray-900 text-base">John Dae Dae</h4>
-              <h5 class="text-center text-gray-900 font-bold text-sm">
-                Company Name
-              </h5>
-            </div>
-          </div>
-        </div>
+    <div class="flex flex-col items-center gap-5 m-auto">
+      <div>
+        <p class="text-white m-auto text-center max-w-lg">
+          "Especialistas de primera y equipos funcionando perfectamente, la
+          atención fue rápida y sin ningún problema externo..."
+        </p>
       </div>
-      <div class="pt-10">
-        <div class="swiper-pagination"></div>
+      <div>
+        <img
+          class="rounded-full size-10"
+          src="avatar.webp"
+          width="40"
+          height="40"
+          alt="persona testimonio"
+        />
+      </div>
+      <div>
+        <h4 class="text-center text-white text-base">John Dae Dae</h4>
+        <h5 class="text-center text-white font-bold text-sm">Company Name</h5>
       </div>
     </div>
   </main>
 </section>
-
-<script>
-  import Swiper from "swiper/bundle";
-  import "swiper/css";
-  import "swiper/css/pagination";
-  import "swiper/css/navigation";
-  const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    centeredSlides: true,
-    loop: true,
-    autoplay: {
-      delay: 4500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-</script>
