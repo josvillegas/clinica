@@ -4,20 +4,23 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Pagina no encontrada">
-  <Header>
-    <main class="flex flex-col gap-8 m-auto w-[980px] py-12">
-      <h2 class="text-5xl text-white font-semibold">
-        Lo sentimos, no pudimos encontrar la pagina que estas buscando
+  <Header />
+  <div
+    class="flex flex-col items-center justify-center gap-x-16 py-10 md:flex-row"
+  >
+    <img src="error404.webp" class="size-[456px]" alt="" />
+    <div class="flex flex-col gap-y-3">
+      <h2 class="font-extrabold text-4xl max-w-xl text-pretty text-[#033D49]">
+        Lo sentimos, no pudimos encontrar la página que estas buscando
       </h2>
-      <h3 class="text-3xl text-white">
-        Asegurate de que estes en lugar correcto
-      </h3>
-      <div class="mt-8">
+      <h3 class="text-2xl">Asegúrate de que estés en lugar correcto</h3>
+      <div class="mt-12">
         <a
-          class="bg-white text-emerald-900 border border-white py-2 px-4 rounded-lg outline-none hover:border-white hover:text-white hover:bg-transparent"
-          href="/">volver al inicio</a
+          class="bg-[#114C5F] text-white py-2 px-4 rounded-lg hover:text-white hover:bg-[#0E3D4C] font-bold"
+          href="/"
+          title="volver al inicio">volver al incio</a
         >
       </div>
-    </main>
-  </Header>
+    </div>
+  </div>
 </Layout>
