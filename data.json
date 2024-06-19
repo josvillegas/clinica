@@ -1,0 +1,349 @@
+{
+  "basics": {
+    "btitle": "Por ti y para ti",
+    "title": "Health Clinic",
+    "paragraph": "Experimente un tratamiento compasivo y personalizado en nuestro reconocido centro médico.",
+    "secservicios": [
+      {
+        "sericon": "tabler-ambulancia",
+        "sername": "Ambulancia",
+        "serdescription": "Contamos con servicio de ambulancia propia para atender cualquier emergencia"
+      },
+      {
+        "sericon": "tabler-anestesiologia",
+        "sername": "Anestesiologia",
+        "serdescription": "Cuidados especiales durante las intervenciones quirúrgicas"
+      },
+      {
+        "sericon": "tabler-uci",
+        "sername": "UCI",
+        "serdescription": "Contamos con quipos de monitoreo modernos y diagnóstico de primera"
+      },
+      {
+        "sericon": "tabler-emergencia",
+        "sername": "Emergencia",
+        "serdescription": "Ofrecemos el servicio de emergencia las 24 horas del día, los 365 días del año"
+      }
+    ],
+    "secespecialidades": [
+      {
+        "sericon": "tabler-anestesiologia",
+        "sername": "Anestesiologia"
+      },
+      {
+        "sericon": "tabler-cardiologia",
+        "sername": "Cardiologia"
+      },
+      {
+        "sericon": "tabler-cirugias",
+        "sername": "Cirugias"
+      },
+      {
+        "sericon": "tabler-medicina-general",
+        "sername": "Medicina General"
+      },
+      {
+        "sericon": "tabler-nutricion",
+        "sername": "Nutricion"
+      },
+      {
+        "sericon": "tabler-psicologia",
+        "sername": "Psicologia"
+      }
+    ],
+    "sectestimonio": [
+      {
+        "paragraph": "Especialistas de primera y equipos funcionando perfectamente, la atención fue rápida y sin ningún problema externo...",
+        "name": "John Dae Dae",
+        "company": "Company Name"
+      }
+    ],
+    "secstaffmedico": [
+      {
+        "img": "img",
+        "name": "Manuel José",
+        "profesion": "Cirujano"
+      },
+      {
+        "img": "img",
+        "name": "Erika Ruiz",
+        "profesion": "Médico"
+      },
+      {
+        "img": "img",
+        "name": "Luis Ojeda",
+        "profesion": "Psicólogo"
+      },
+      {
+        "img": "img",
+        "name": "Elizabet Losada",
+        "profesion": "Nutricionista"
+      }
+    ],
+    "sectops": [
+      {
+        "icon": "tabler-especialidad-medica",
+        "ranking": "+36",
+        "name": "Especialidades Medicas"
+      },
+      {
+        "icon": "tabler-emergencias-atendidas",
+        "ranking": "120",
+        "name": "Emergencias Atendidas"
+      },
+      {
+        "icon": "tabler-consultorios",
+        "ranking": "12",
+        "name": "Consultorios y/o sedes"
+      },
+      {
+        "icon": "tabler-profesionales-capacitados",
+        "ranking": "80",
+        "name": "Profesionales Capacitados"
+      }
+    ]
+  },
+  "services": {
+    "serprincipales": [
+      {
+        "icon": "tabler-hospitalizacion",
+        "name": "Hospitalizacion",
+        "paragraph": "De ser necesario permanecer en el hospital contamos con espacios capacitados para su estadía tanto del paciente y de su acompañante"
+      },
+      {
+        "icon": "tabler-ambulancia",
+        "name": "Ambulancia",
+        "paragraph": "Contamos con servicio de ambulancia las 24 horas del día, los 365 días del año, solo comunícate con y estaremos ahí lo más pronto posible"
+      },
+      {
+        "icon": "tabler-centro-quirurgico",
+        "name": "Hospitalizacion",
+        "paragraph": "Durante operaciones sencillas o de urgencia contamos con áreas quirúrgicas actualizadas y del más alto a nivel"
+      }
+    ],
+    "plansandprogramas": [
+      {
+        "icon": "tabler-chequeos-medicos",
+        "name": "Chequeos Médicos",
+        "paragraph": "Porque uno no puede estar libre de cualquier dificultad médica contamos con varios planes de chequeos médicos a tu disposición"
+      },
+      {
+        "icon": "tabler-nacer-seguro",
+        "name": "Nacer Seguro",
+        "paragraph": "Durante una de las mejores etapas que la familia puede atravesar, podemos acompañarte con chequeos internos o externos hasta el día del nacimiento"
+      },
+      {
+        "icon": "tabler-Alimentación",
+        "name": "Alimentación",
+        "paragraph": "Porque no basta con asistir a las consultas anuales contamos con un programa especializado en la alimentación balanceada para usted"
+      }
+    ]
+  },
+  "especialidades": {
+    "listespecialidades": [
+      {
+        "icon": "tabler-alergia",
+        "name": "Alergia"
+      },
+      {
+        "icon": "tabler-cardiologia",
+        "name": "Cardiología"
+      },
+      {
+        "icon": "tabler-cirugia-cardiovacular",
+        "name": "Cirugía Cardiovacular"
+      },
+      {
+        "icon": "tabler-cirugia-general",
+        "name": "Cirugía General"
+      },
+      {
+        "icon": "tabler-cirugia-vascular",
+        "name": "Cirugía Vascular"
+      },
+      {
+        "icon": "tabler-dermatologia",
+        "name": "Dermatología"
+      },
+      {
+        "icon": "tabler-ecografia",
+        "name": "Ecografía"
+      },
+      {
+        "icon": "tabler-geriatria",
+        "name": "Geriatría"
+      },
+      {
+        "icon": "tabler-ginecologia",
+        "name": "Ginecología"
+      },
+      {
+        "icon": "tabler-infectologia",
+        "name": "Infectología"
+      },
+      {
+        "icon": "tabler-medicina-general",
+        "name": "Medicina General"
+      },
+      {
+        "icon": "tabler-medicina-interna",
+        "name": "Medicina Interna"
+      },
+      {
+        "icon": "tabler-neumologia",
+        "name": "Neumología"
+      },
+      {
+        "icon": "tabler-neurologia",
+        "name": "Neurología"
+      },
+      {
+        "icon": "tabler-odontologia",
+        "name": "Odontología"
+      },
+      {
+        "icon": "tabler-oftalmologia",
+        "name": "Oftalmología"
+      },
+      {
+        "icon": "tabler-pediatria",
+        "name": "Pediatría"
+      },
+      {
+        "icon": "tabler-psicologia",
+        "name": "Psicología"
+      },
+      {
+        "icon": "tabler-psiquiatria",
+        "name": "Psiquiatría"
+      },
+      {
+        "icon": "tabler-radiologia",
+        "name": "Radiología"
+      },
+      {
+        "icon": "tabler-urologia",
+        "name": "Urología"
+      }
+    ],
+    "sercomplementarios": [
+      {
+        "icon": "tabler-espacio-lactancia",
+        "name": "Espacio de Lactancia",
+        "paragraph": "Contamos con un espacio privado para atender las necesidades de los más pequeños en el tema de alimentos principales o primarios"
+      },
+      {
+        "icon": "tabler-parking",
+        "name": "Parking",
+        "paragraph": "Contamos con una amplia playa de estacionamiento gratuita y al servicio de los que estén pasando el tiempo con nosotros"
+      },
+      {
+        "icon": "tabler-traslado",
+        "name": "Traslado",
+        "paragraph": "Al tener varias sedes contamos con el servicio de traslado de pacientes y facilitar a los familiares la mejor compañia posible"
+      }
+    ]
+  },
+  "medicos": [
+    {
+      "img": "img",
+      "name": "José Gabriel",
+      "profesion": "Anestesiólogo"
+    },
+    {
+      "img": "img",
+      "name": "Juan Salguero",
+      "profesion": "Cardiólogo"
+    },
+    {
+      "img": "img",
+      "name": "Antonia Gonzales",
+      "profesion": "Médico"
+    },
+    {
+      "img": "img",
+      "name": "Juan Aguado",
+      "profesion": "Cirujano"
+    },
+    {
+      "img": "img",
+      "name": "Carlos Garriga",
+      "profesion": "Gastroenterólogo"
+    },
+    {
+      "img": "img",
+      "name": "Rachid Zafra",
+      "profesion": "Médico General"
+    },
+    {
+      "img": "img",
+      "name": "Martin Maza",
+      "profesion": "Dermatólogo"
+    },
+    {
+      "img": "img",
+      "name": "Otilia Hernández",
+      "profesion": "Médico Interno"
+    },
+    {
+      "img": "img",
+      "name": "Octavio Valdivia",
+      "profesion": "Pediatra"
+    },
+    {
+      "img": "img",
+      "name": "Adriana Guirao",
+      "profesion": "Psiquiatra"
+    },
+    {
+      "img": "img",
+      "name": "Tomasa Grau",
+      "profesion": "Pediatra"
+    },
+    {
+      "img": "img",
+      "name": "Elena Valverde",
+      "profesion": "Urólogo"
+    },
+    {
+      "img": "img",
+      "name": "Mariana Arce",
+      "profesion": "Psicóloga"
+    },
+    {
+      "img": "img",
+      "name": "Filomena Carballo",
+      "profesion": "Nutricionista"
+    },
+    {
+      "img": "img",
+      "name": "Fabio Peñalver",
+      "profesion": "Oftalmólogo"
+    },
+    {
+      "img": "img",
+      "name": "John Dae Dae",
+      "profesion": "Dentista"
+    },
+    {
+      "img": "img",
+      "name": "Ferran Fuentes",
+      "profesion": "Pediatra"
+    },
+    {
+      "img": "img",
+      "name": "Laia Sebastian",
+      "profesion": "Médico General"
+    },
+    {
+      "img": "img",
+      "name": "Xavier Requena",
+      "profesion": "Cirujano"
+    },
+    {
+      "img": "img",
+      "name": "María Poveda",
+      "profesion": "Oftalmólogo"
+    }
+  ]
+}
