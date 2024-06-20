@@ -1,0 +1,44 @@
+---
+import ViewTransitions from "astro/components/ViewTransitions.astro";
+import Headercita from "../components/sections/Headercita.astro";
+
+interface Props {
+  title: String;
+  description: String;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <ViewTransitions />
+  </head>
+  <body>
+    <Headercita />
+    <main>
+      <slot />
+    </main>
+    <style is:global>
+      :root {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        outline: none;
+        text-wrap: pretty;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </body>
+</html>

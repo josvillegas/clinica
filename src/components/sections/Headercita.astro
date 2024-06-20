@@ -1,0 +1,48 @@
+---
+import Facebook from "../../icons/Tabler-brand-facebook.astro";
+import Instagram from "../../icons/Tabler-brand-instagram.astro";
+import Mail from "../../icons/Tabler-mail.astro";
+import Whastapp from "../../icons/Whastapp.astro";
+---
+
+<!-- Primer NavBar -->
+<div class="bg-[#045C6D]">
+  <nav class="flex justify-between m-auto py-2 px-2 flex-wrap">
+    <div class="flex items-center gap-3 flex-wrap">
+      <a
+        href="#"
+        class="text-xs font-semibold text-white inline-flex items-center gap-x-2"
+        title="correo de contacto"
+        ><Mail class="size-4" /> clinica@company.com</a
+      >
+      <a
+        href="#"
+        class="text-xs font-semibold text-white inline-flex items-center gap-x-2"
+        title="numero de contacto"
+      >
+        <Whastapp class="size-4" /> +51 987 654 321
+      </a>
+    </div>
+    <div class="flex items-center gap-2">
+      <a
+        href="#"
+        class="text-xs font-semibold text-white gap-2"
+        title="nuestro instagram"
+      >
+        <Instagram class="size-5 p-0.5" />
+      </a>
+      <a
+        href="#"
+        class="text-xs font-semibold text-white gap-2"
+        title="nuestro facebook"
+      >
+        <Facebook class="size-5 p-0.5" />
+      </a>
+      <a
+        href="#"
+        class="text-xs font-semibold text-white gap-2 inline-flex items-center gap-x-2"
+        title="idiomas">ES</a
+      >
+    </div>
+  </nav>
+</div>
