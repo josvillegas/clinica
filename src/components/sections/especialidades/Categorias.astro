@@ -1,42 +1,228 @@
 ---
-import Facebook from "../../../icons/Tabler-brand-facebook.astro";
+import TablerAlergia from "../../../icons/Tabler-alergia.astro";
+import TablerBrain from "../../../icons/Tabler-brain.astro";
+import TablerCirugiacardiovascular from "../../../icons/Tabler-cirugiacardiovascular.astro";
+import TablerCirugiageneral from "../../../icons/Tabler-cirugiageneral.astro";
+import TablerClipboardHeart from "../../../icons/Tabler-clipboard-heart.astro";
+import TablerDermatologia from "../../../icons/Tabler-dermatologia.astro";
+import TablerEcografia from "../../../icons/Tabler-ecografia.astro";
+import TablerGeriatria from "../../../icons/Tabler-geriatria.astro";
+import TablerGinecologia from "../../../icons/Tabler-ginecologia.astro";
+import TablerHeartbeat from "../../../icons/Tabler-heartbeat.astro";
+import TablerInfectologia from "../../../icons/Tabler-infectologia.astro";
+import TablerLactancia from "../../../icons/Tabler-lactancia.astro";
+import TablerMedicinageneral from "../../../icons/Tabler-medicinageneral.astro";
+import TablerMedicinainterna from "../../../icons/Tabler-medicinainterna.astro";
+import TablerNeumologia from "../../../icons/Tabler-neumologia.astro";
+import TablerOdontologia from "../../../icons/Tabler-odontologia.astro";
+import TablerOftalmologia from "../../../icons/Tabler-oftalmologia.astro";
+import TablerParking from "../../../icons/Tabler-parking.astro";
+import TablerPediatria from "../../../icons/Tabler-pediatria.astro";
+import TablerPsiquiatria from "../../../icons/Tabler-psiquiatria.astro";
+import TablerRadiologia from "../../../icons/Tabler-radiologia.astro";
+import TablerTraslado from "../../../icons/Tabler-traslado.astro";
+import TablerUrologia from "../../../icons/Tabler-urologia.astro";
+
+const TAGS = {
+  ALERGIA: {
+    icon: TablerAlergia,
+  },
+  CARDIOLOGIA: {
+    icon: TablerHeartbeat,
+  },
+  CIRUGIACARDIO: {
+    icon: TablerCirugiacardiovascular,
+  },
+  CIRUGIAGENE: {
+    icon: TablerCirugiageneral,
+  },
+  CIRUGIAVASC: {
+    icon: TablerClipboardHeart,
+  },
+  DERMATOLOGIA: {
+    icon: TablerDermatologia,
+  },
+  ECOGRAFIA: {
+    icon: TablerEcografia,
+  },
+  GERIATRIA: {
+    icon: TablerGeriatria,
+  },
+  GINEOCLOGIA: {
+    icon: TablerGinecologia,
+  },
+  INFECTOLOGIA: {
+    icon: TablerInfectologia,
+  },
+  MEDICINAGENRAL: {
+    icon: TablerMedicinageneral,
+  },
+  MEDICINAINTERNA: {
+    icon: TablerMedicinainterna,
+  },
+  NUEMOLOGIA: {
+    icon: TablerNeumologia,
+  },
+  NEUROLOGIA: {
+    icon: TablerBrain,
+  },
+  ODONTOLOGIA: {
+    icon: TablerOdontologia,
+  },
+  OFTALMOLOGIA: {
+    icon: TablerOftalmologia,
+  },
+  PEDIATRIA: {
+    icon: TablerPediatria,
+  },
+  PSICOLOGIA: {
+    icon: TablerBrain,
+  },
+  PSIQUIATRIA: {
+    icon: TablerPsiquiatria,
+  },
+  RADILOGIA: {
+    icon: TablerRadiologia,
+  },
+  UROLOGIA: {
+    icon: TablerUrologia,
+  },
+  LACTANCIA: {
+    icon: TablerLactancia,
+  },
+  PARKING: {
+    icon: TablerParking,
+  },
+  TRASLADO: {
+    icon: TablerTraslado,
+  },
+};
+
+const ESPECIALIDADES = [
+  {
+    name: "Alergia",
+    tags: [TAGS.ALERGIA],
+  },
+  {
+    name: "Cardiología",
+    tags: [TAGS.CARDIOLOGIA],
+  },
+  {
+    name: "Cirugía Cardiovacular",
+    tags: [TAGS.CIRUGIACARDIO],
+  },
+  {
+    name: "Cirugía General",
+    tags: [TAGS.CIRUGIAGENE],
+  },
+  {
+    name: "Cirugía Vascular",
+    tags: [TAGS.CIRUGIAVASC],
+  },
+  {
+    name: "Dermatología",
+    tags: [TAGS.DERMATOLOGIA],
+  },
+  {
+    name: "Ecografía",
+    tags: [TAGS.ECOGRAFIA],
+  },
+  {
+    name: "Geriatría",
+    tags: [TAGS.GERIATRIA],
+  },
+  {
+    name: "Ginecología",
+    tags: [TAGS.GINEOCLOGIA],
+  },
+  {
+    name: "Infectología",
+    tags: [TAGS.INFECTOLOGIA],
+  },
+  {
+    name: "Medicina General",
+    tags: [TAGS.MEDICINAGENRAL],
+  },
+  {
+    name: "Medicina Interna",
+    tags: [TAGS.MEDICINAINTERNA],
+  },
+  {
+    name: "Neumología",
+    tags: [TAGS.NEUROLOGIA],
+  },
+  {
+    name: "Neurología",
+    tags: [TAGS.NEUROLOGIA],
+  },
+  {
+    name: "Odontología",
+    tags: [TAGS.ODONTOLOGIA],
+  },
+  {
+    name: "Oftalmología",
+    tags: [TAGS.OFTALMOLOGIA],
+  },
+  {
+    name: "Pediatría",
+    tags: [TAGS.PEDIATRIA],
+  },
+  {
+    name: "Psicología",
+    tags: [TAGS.PSICOLOGIA],
+  },
+  {
+    name: "Psiquiatría",
+    tags: [TAGS.PSIQUIATRIA],
+  },
+  {
+    name: "Radiología",
+    tags: [TAGS.RADILOGIA],
+  },
+  {
+    name: "Urología",
+    tags: [TAGS.UROLOGIA],
+  },
+];
+
+const SERVICIOSADICIONALES = [
+  {
+    name: "Espacio de Lactancia",
+    paragraph:
+      "Contamos con un espacio privado para atender las necesidades de los más pequeños en el tema de alimentos principales o primarios",
+    tags: [TAGS.LACTANCIA],
+  },
+  {
+    name: "Parking",
+    paragraph:
+      "Contamos con una amplia playa de estacionamiento gratuita y al servicio de los que estén pasando el tiempo con nosotros",
+    tags: [TAGS.PARKING],
+  },
+  {
+    name: "Traslado",
+    paragraph:
+      "Al tener varias sedes contamos con el servicio de traslado de pacientes y facilitar a los familiares la mejor compañia posible",
+    tags: [TAGS.TRASLADO],
+  },
+];
 ---
 
 <section class="px-12 py-10 md:px-16 lg:px-28">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10">
-    <!-- card especialidades -->
-    <div
-      class="group flex items-center gap-x-4 bg-white rounded-md shadow-md hover:bg-[#033D49] py-6 px-5"
-    >
-      <span
-        class="bg-[#033D49] text-white rounded-full text-center h-12 w-12 flex items-center justify-center group-hover:text-[#033D49] group-hover:bg-white"
-      >
-        <Facebook class="icon size-6" />
-      </span>
-      <h3 class="font-bold text-lg group-hover:text-white">Alergia</h3>
-    </div>
-    <!-- card especialidades -->
-    <div
-      class="group flex items-center gap-x-4 bg-white rounded-md shadow-md hover:bg-[#033D49] py-6 px-5"
-    >
-      <span
-        class="bg-[#033D49] text-white rounded-full text-center h-12 w-12 flex items-center justify-center group-hover:text-[#033D49] group-hover:bg-white"
-      >
-        <Facebook class="icon size-6" />
-      </span>
-      <h3 class="font-bold text-lg group-hover:text-white">Alergia</h3>
-    </div>
-    <!-- card especialidades -->
-    <div
-      class="group flex items-center gap-x-4 bg-white rounded-md shadow-md hover:bg-[#033D49] py-6 px-5"
-    >
-      <span
-        class="bg-[#033D49] text-white rounded-full text-center h-12 w-12 flex items-center justify-center group-hover:text-[#033D49] group-hover:bg-white"
-      >
-        <Facebook class="icon size-6" />
-      </span>
-      <h3 class="font-bold text-lg group-hover:text-white">Alergia</h3>
-    </div>
+    {
+      ESPECIALIDADES.map(({ name, tags }) => {
+        return (
+          <div class="group flex items-center gap-x-4 bg-white rounded-md shadow-md hover:bg-[#033D49] py-6 px-5">
+            <span class="bg-[#033D49] text-white rounded-full text-center h-12 w-12 flex items-center justify-center group-hover:text-[#033D49] group-hover:bg-white">
+              {tags.map((tag) => (
+                <tag.icon class="size-6" />
+              ))}
+            </span>
+            <h3 class="font-bold text-lg group-hover:text-white">{name}</h3>
+          </div>
+        );
+      })
+    }
   </div>
 </section>
 
@@ -45,51 +231,20 @@ import Facebook from "../../../icons/Tabler-brand-facebook.astro";
     Servicios Complementarios
   </h2>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-10">
-    <!-- card -->
-    <div
-      class="group flex flex-col gap-y-4 bg-white shadow-md py-20 px-8 rounded-lg hover:bg-[#033D49] hover:text-white"
-    >
-      <span
-        class="bg-[#033D49] text-white rounded-full text-center h-12 w-12 flex items-center justify-center group-hover:text-[#033D49] group-hover:bg-white"
-      >
-        <Facebook class="icon size-6" />
-      </span>
-      <h3 class="font-bold text-xl">Espacio de Lactancia</h3>
-      <p class="text-sm max-w-64">
-        Contamos con un espacio privado para atender las necesidades de los más
-        pequeños en el tema de alimentos principales o primarios
-      </p>
-    </div>
-
-    <!-- card -->
-    <div
-      class="group flex flex-col gap-y-4 bg-white shadow-md py-20 px-8 rounded-lg hover:bg-[#033D49] hover:text-white"
-    >
-      <span
-        class="bg-[#033D49] text-white rounded-full text-center h-12 w-12 flex items-center justify-center group-hover:text-[#033D49] group-hover:bg-white"
-      >
-        <Facebook class="icon size-6" />
-      </span>
-      <h3 class="font-bold text-xl">Parking</h3>
-      <p class="text-sm max-w-64">
-        Contamos con una amplia playa de estacionamiento gratuita y al servicio
-        de los que estén pasando el tiempo con nosotros
-      </p>
-    </div>
-    <!-- card -->
-    <div
-      class="group flex flex-col gap-y-4 bg-white shadow-md py-20 px-8 rounded-lg hover:bg-[#033D49] hover:text-white"
-    >
-      <span
-        class="bg-[#033D49] text-white rounded-full text-center h-12 w-12 flex items-center justify-center group-hover:text-[#033D49] group-hover:bg-white"
-      >
-        <Facebook class="icon size-6" />
-      </span>
-      <h3 class="font-bold text-xl">Traslado</h3>
-      <p class="text-sm max-w-64">
-        Al tener varias sedes contamos con el servicio de traslado de pacientes
-        y facilitar a los familiares la mejor compañia posible
-      </p>
-    </div>
+    {
+      SERVICIOSADICIONALES.map(({ name, paragraph, tags }) => {
+        return (
+          <div class="group flex flex-col gap-y-4 bg-white shadow-md py-20 px-8 rounded-lg hover:bg-[#033D49] hover:text-white">
+            <span class="bg-[#033D49] text-white rounded-full text-center h-12 w-12 flex items-center justify-center group-hover:text-[#033D49] group-hover:bg-white">
+              {tags.map((tag) => (
+                <tag.icon class="size-6" />
+              ))}
+            </span>
+            <h3 class="font-bold text-xl">{name}</h3>
+            <p class="text-sm max-w-64">{paragraph}</p>
+          </div>
+        );
+      })
+    }
   </div>
 </section>
