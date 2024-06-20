@@ -3,6 +3,7 @@ import ButtonWhatsapp from "../components/ButtonWhatsapp.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import Footer from "../components/sections/Footer.astro";
 import { ViewTransitions } from "astro:transitions";
+import Header from "../components/sections/Header.astro";
 
 interface Props {
   title: string;
@@ -24,6 +25,7 @@ const { title } = Astro.props;
   </head>
   <body>
     <SectionContainer>
+      <Header />
       <ButtonWhatsapp />
       <main>
         <slot />
