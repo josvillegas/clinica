@@ -7,8 +7,10 @@ import TablerLogo from "../../icons/Tabler-Mvv.astro";
 ---
 
 <!-- Primer NavBar -->
-<div class="bg-[#045C6D]">
-  <nav class="flex justify-between m-auto py-2 px-2 flex-wrap">
+<div class="bg-[#045C6D] hidden md:block">
+  <nav
+    class="flex flex-col justify-center items-center w-full px-4 m-auto py-2 flex-wrap sm:flex-row sm:justify-between"
+  >
     <div class="flex items-center gap-3 flex-wrap">
       <a
         href="#"
@@ -39,11 +41,15 @@ import TablerLogo from "../../icons/Tabler-Mvv.astro";
       >
         <Facebook class="size-5 p-0.5" />
       </a>
-      <a
-        href="#"
-        class="text-xs font-semibold text-white gap-2 inline-flex items-center gap-x-2"
-        title="idiomas">ES</a
-      >
+      <form class="w-12">
+        <select
+          id="countries"
+          class="bg-[#114C5F] font-bold border border-white text-white text-xs rounded-md focus:ring-gray-500 focus:border-gray-400 focus:outline-none block w-full p-0.5"
+        >
+          <option class="text-white">ES</option>
+          <option class="text-white">EN</option>
+        </select>
+      </form>
     </div>
   </nav>
 </div>
