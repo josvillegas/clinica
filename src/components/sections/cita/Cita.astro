@@ -1,34 +1,54 @@
 <!-- Cita form -->
-<div class="bg-gray-800 py-10 px-10">
-  <form class="max-w-lg mx-auto">
+<div
+  class="flex flex-col pt-6 pb-4 items-center justify-center gap-y-10 md:flex-row md:gap-x-10"
+>
+  <img
+    class="size-40 md:size-32 p-1"
+    src="logoclinica.webp"
+    alt="logo de la clinica"
+    width="100%"
+    title="Logo de la clinica"
+  />
+  <div class="px-3">
+    <h2 class="text-2xl font-bold text-[#067A92] mb-3">
+      Healt Clinic - Reserva tu cita
+    </h2>
+    <p class="text-sm font-semibold text-gray-950">
+      Completa el formulario de registro para poder reservar una cita
+    </p>
+  </div>
+</div>
+
+<div class="bg-gray-50 py-10 px-10">
+  <form class="max-w-xl mx-auto">
     <!-- input group 01 -->
     <div class="grid md:grid-cols-2 md:gap-6">
       <div class="relative z-0 w-full mb-5 group">
         <label
           for="countries"
-          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          class="block mb-2 text-sm font-semibold text-gray-900"
           >Selecionar tu documento</label
         >
         <select
           id="countries"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-400 focus:outline-none block w-full p-2"
         >
-          <option>DNI</option>
-          <option>Carnet de Extranjeria</option>
-          <option>Pasaporte</option>
-          <option>Otro</option>
+          <option class="text-gray-700">DNI</option>
+          <option class="text-gray-700">Carnet de Extranjeria</option>
+          <option class="text-gray-700">Pasaporte</option>
+          <option class="text-gray-700">Otro</option>
         </select>
       </div>
       <div class="relative z-0 w-full mb-5 group">
         <label
           for="email"
-          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-          ># Documento</label
+          class="block mb-2 text-sm font-semibold text-gray-900"
+          >N° Documento</label
         >
         <input
           type="number"
           id="documento"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border border-gray-400 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2 focus:outline-none"
           placeholder="98765432"
           required
         />
@@ -39,13 +59,12 @@
       <div class="relative z-0 w-full mb-5 group">
         <label
           for="usuario"
-          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-          >Usuario</label
+          class="block mb-2 text-sm font-semibold text-gray-900">Usuario</label
         >
         <input
           type="text"
           id="usuario"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border border-gray-400 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2 focus:outline-none"
           placeholder="usuario"
           required
         />
@@ -53,13 +72,13 @@
       <div class="relative z-0 w-full mb-5 group">
         <label
           for="password"
-          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          class="block mb-2 text-sm font-semibold text-gray-900"
           >Contraseña</label
         >
         <input
           type="password"
           id="password"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border border-gray-400 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2 focus:outline-none"
           placeholder="contraseña"
           required
           autocomplete="on"
@@ -68,45 +87,39 @@
     </div>
     <!-- input 01 -->
     <div class="relative z-0 w-full mb-5 group">
-      <label
-        for="text"
-        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+      <label for="text" class="block mb-2 text-sm font-semibold text-gray-900"
         >Tu nombre</label
       >
       <input
         type="text"
         id="nombre"
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        class="bg-gray-50 border border-gray-400 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2 focus:outline-none"
         placeholder="nombres"
         required
       />
     </div>
     <!-- input 02 -->
     <div class="relative z-0 w-full mb-5 group">
-      <label
-        for="email"
-        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+      <label for="email" class="block mb-2 text-sm font-semibold text-gray-900"
         >Tus apellidos</label
       >
       <input
         type="text"
         id="apellido"
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        class="bg-gray-50 border border-gray-400 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2 focus:outline-none"
         placeholder="apellidos"
         required
       />
     </div>
     <!-- input 03 -->
     <div class="relative z-0 w-full mb-5 group">
-      <label
-        for="email"
-        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+      <label for="email" class="block mb-2 text-sm font-semibold text-gray-900"
         >Tu correo</label
       >
       <input
         type="email"
         id="email"
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        class="bg-gray-50 border border-gray-400 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2 focus:outline-none"
         placeholder="correo@gmail.com"
         required
       />
@@ -114,7 +127,7 @@
 
     <button
       type="submit"
-      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      class="text-white bg-[#114C5F] hover:bg-[#0E3D4C] focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2 text-center"
       >Enviar Datos</button
     >
   </form>

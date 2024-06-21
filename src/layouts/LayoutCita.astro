@@ -1,6 +1,8 @@
 ---
 import { ViewTransitions } from "astro:transitions";
 import Headercita from "../components/sections/Headercita.astro";
+import Footercita from "../components/sections/Footercita.astro";
+import SectionContainer from "../components/SectionContainer.astro";
 
 interface Props {
   title: string;
@@ -22,10 +24,13 @@ const { title, description } = Astro.props;
     <ViewTransitions />
   </head>
   <body>
-    <Headercita />
-    <main>
-      <slot />
-    </main>
+    <SectionContainer>
+      <Headercita />
+      <main>
+        <slot />
+      </main>
+      <Footercita />
+    </SectionContainer>
     <style is:global>
       :root {
         margin: 0;
