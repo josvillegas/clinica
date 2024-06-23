@@ -60,22 +60,22 @@
     ],
     "secstaffmedico": [
       {
-        "img": "img",
+        "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
         "name": "Manuel José",
         "profesion": "Cirujano"
       },
       {
-        "img": "img",
+        "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
         "name": "Erika Ruiz",
         "profesion": "Médico"
       },
       {
-        "img": "img",
+        "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
         "name": "Luis Ojeda",
         "profesion": "Psicólogo"
       },
       {
-        "img": "img",
+        "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
         "name": "Elizabet Losada",
         "profesion": "Nutricionista"
       }
@@ -246,102 +246,102 @@
   },
   "medicos": [
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "José Gabriel",
       "profesion": "Anestesiólogo"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Juan Salguero",
       "profesion": "Cardiólogo"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Antonia Gonzales",
       "profesion": "Médico"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Juan Aguado",
       "profesion": "Cirujano"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Carlos Garriga",
       "profesion": "Gastroenterólogo"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Rachid Zafra",
       "profesion": "Médico General"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Martin Maza",
       "profesion": "Dermatólogo"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Otilia Hernández",
       "profesion": "Médico Interno"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Octavio Valdivia",
       "profesion": "Pediatra"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Adriana Guirao",
       "profesion": "Psiquiatra"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Tomasa Grau",
       "profesion": "Pediatra"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Elena Valverde",
       "profesion": "Urólogo"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Mariana Arce",
       "profesion": "Psicóloga"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Filomena Carballo",
       "profesion": "Nutricionista"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Fabio Peñalver",
       "profesion": "Oftalmólogo"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "John Dae Dae",
       "profesion": "Dentista"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Ferran Fuentes",
       "profesion": "Pediatra"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Laia Sebastian",
       "profesion": "Médico General"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "Xavier Requena",
       "profesion": "Cirujano"
     },
     {
-      "img": "img",
+      "img": "https://raw.githubusercontent.com/josvillegas/clinica/main/public/doctor.webp",
       "name": "María Poveda",
       "profesion": "Oftalmólogo"
     }

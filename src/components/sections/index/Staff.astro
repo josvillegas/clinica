@@ -1,3 +1,9 @@
+---
+import { basics } from "../../../../data.json";
+
+const { secstaffmedico } = basics;
+---
+
 <section class="flex flex-col items-center m-10 gap-8">
   <h2 class="text-center text-3xl font-bold text-[#033D49]">Staff Médico</h2>
   <p class="text-center max-w-[600px] m-auto">
@@ -8,78 +14,31 @@
     <div
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-10 px-10"
     >
-      <!-- card doctors -->
-      <div class="flex flex-col gap-y-3 items-center">
-        <a
-          class="group hover:bg-teal-600 w-48 h-48 rounded-full flex items-center justify-center"
-          href="#"
-          title="doctor"
-        >
-          <h4 class="group-hover:text-white group-hover:block hidden font-bold">
-            ver perfil
-          </h4>
-        </a>
-        <div>
-          <h3 class="text-base font-semibold text-black text-center">
-            John Dae
-          </h3>
-          <h4 class="text-lg font-bold text-[#045C6D]">Cirujano</h4>
-        </div>
-      </div>
-      <!-- card doctors -->
-      <div class="flex flex-col gap-y-3 items-center">
-        <a
-          class="group hover:bg-teal-600 w-48 h-48 rounded-full flex items-center justify-center"
-          href="#"
-          title="doctor"
-        >
-          <h4 class="group-hover:text-white group-hover:block hidden font-bold">
-            ver perfil
-          </h4>
-        </a>
-        <div>
-          <h3 class="text-base font-semibold text-black text-center">
-            John Dae
-          </h3>
-          <h4 class="text-lg font-bold text-[#045C6D]">Cirujano</h4>
-        </div>
-      </div>
-      <!-- card doctors -->
-      <div class="flex flex-col gap-y-3 items-center">
-        <a
-          class="group hover:bg-teal-600 w-48 h-48 rounded-full flex items-center justify-center"
-          href="#"
-          title="doctor"
-        >
-          <h4 class="group-hover:text-white group-hover:block hidden font-bold">
-            ver perfil
-          </h4>
-        </a>
-        <div>
-          <h3 class="text-base font-semibold text-black text-center">
-            John Dae
-          </h3>
-          <h4 class="text-lg font-bold text-[#045C6D]">Cirujano</h4>
-        </div>
-      </div>
-      <!-- card doctors -->
-      <div class="flex flex-col gap-y-3 items-center">
-        <a
-          class="group hover:bg-teal-600 w-48 h-48 rounded-full flex items-center justify-center"
-          href="#"
-          title="doctor"
-        >
-          <h4 class="group-hover:text-white group-hover:block hidden font-bold">
-            ver perfil
-          </h4>
-        </a>
-        <div>
-          <h3 class="text-base font-semibold text-black text-center">
-            John Dae
-          </h3>
-          <h4 class="text-lg font-bold text-[#045C6D]">Cirujano</h4>
-        </div>
-      </div>
+      {
+        secstaffmedico.map(({ img, name, profesion }) => {
+          return (
+            <div class="flex flex-col gap-y-3 items-center">
+              <a
+                class={`group w-48 h-48 rounded-full flex items-center justify-center bg-[url('${img}')] bg-cover bg-center bg-no-repeat`}
+                href="#"
+                title="doctor"
+              >
+                <h4 class="group-hover:text-white group-hover:block hidden font-bold text-center">
+                  ver perfil
+                </h4>
+              </a>
+              <div>
+                <h3 class="text-base font-semibold text-black text-center">
+                  {name}
+                </h3>
+                <h4 class="text-lg font-bold text-[#045C6D] text-center">
+                  {profesion}
+                </h4>
+              </div>
+            </div>
+          );
+        })
+      }
     </div>
   </div>
 
@@ -92,13 +51,7 @@
 </section>
 
 <style>
-  .group {
-    background-image: url("../doctor.webp");
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
   .group:hover {
-    background: teal;
+    background: #045c6d;
   }
 </style>
