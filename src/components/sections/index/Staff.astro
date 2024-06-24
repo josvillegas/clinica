@@ -19,7 +19,7 @@ const { secstaffmedico } = basics;
           return (
             <div class="flex flex-col gap-y-3 items-center">
               <a
-                class={`group w-48 h-48 rounded-full flex items-center justify-center bg-[url${img}] bg-cover bg-center bg-no-repeat`}
+                class="group w-48 h-48 rounded-full flex items-center justify-center"
                 href="#"
                 title="doctor"
               >
@@ -51,6 +51,12 @@ const { secstaffmedico } = basics;
 </section>
 
 <style>
+  .group {
+    background-image: url("doctor.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .group:hover {
     background: #045c6d;
   }
