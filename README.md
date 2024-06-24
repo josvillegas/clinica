@@ -3,9 +3,9 @@
 </p>
 
 <div align="center">
-    <h1>Health Clinica</h1>
+    <h1>Health Clinic</h1>
     <p>
-    Sitio Web para una clinica con la siguiente información: nosotros, especialidades, servicios, staff médico, entre otros
+    Sitio Web para una clínica con la siguiente información: nosotros, especialidades, servicios, staff médico, entre otros
     </p>
     
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
